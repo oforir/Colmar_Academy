@@ -1,0 +1,76 @@
+
+/* General styles */
+
+html {
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;;
+}
+
+.flex {
+  display: flex;
+}
+
+
+/* Header styles - General & Large screens */
+
+/*header,
+div,
+nav {
+  border: 1px solid black;
+}*/
+
+header {
+  background: white;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
+.header-desktop {
+  justify-content: space-between;
+  height: 4rem;
+  padding: 0 1.5rem;
+
+}
+
+.hdr-logo,
+header nav {
+  height: 2rem;
+  padding: 1rem 0;
+  align-items: center;
+}
+
+.name-one {
+  font-weight: 500;
+  color: #2e62af;
+
+}
+
+.name-two {
+  font-weight: 900;
+
+}
+
+nav span {
+  padding-left: 1rem;
+  font-weight: 700;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f26226;
+}
+
+.header-mobile {
+  display: none;
+}
