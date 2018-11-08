@@ -204,13 +204,12 @@ nav a:hover {
 
 .feature-image {
   width: 35%;
-  height: auto;
   margin-right:;
 }
 
 .feature-image img {
   height: auto;
-  width: 100%;
+  max-width: 100%;
 }
 
 .feature-content {
@@ -246,7 +245,7 @@ padding: 0rem 1rem;
 }
 
 .learning-wrapper {
-  padding: 2rem 3.5rem 0rem 3.5rem;
+  padding: 2rem 3.5rem 1rem 3.5rem;
   flex-wrap: wrap;
   align-content: space-around;
   justify-content: center;
@@ -273,4 +272,23 @@ padding: 0rem 1rem;
 .edu-details p {
   margin-top: 0.5rem;
   font-style: italic;
+}
+
+/* Thesis section styles */
+
+.thesis {
+  margin-top: 2rem;
+}
+
+.thesis h2 {
+  text-align: center;
+}
+
+.thesis-wrapper {
+  padding: 2rem 0rem 2rem 1.5rem;
+}
+
+.thesis .featured-main video {
+  width: 100%;
+  margin-bottom: 1.5rem;
 }
