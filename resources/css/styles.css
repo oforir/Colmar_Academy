@@ -430,7 +430,6 @@ padding: 0rem 1rem;
   }
 
 
-
 }
 
 
@@ -458,12 +457,56 @@ padding: 0rem 1rem;
   margin-bottom: 0rem;
 }
 
+.thesis-mob {
+  display: none;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+  .thesis {
+    display: none;
+  }
+
+  .thesis-mob {
+    display: block;
+    max-width: 100%;
+    padding-top: 1.14rem;
+  }
+
+  .thesis-mob h2 {
+    padding-bottom: 1.14rem;
+    text-align: center;
+  }
+
+  #vid-mob {
+    padding-bottom: 1.71rem;
+  }
+
+
+
+
+}
+
+
+
 /* Footer section styles */
 
 footer {
-  height: 2rem;
+  height: auto;
   padding: 1rem 1.5rem;
   justify-content: space-between;
   background-color: #c0cfe7;
   color: ;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+  footer {
+    height: auto;
+    padding: 1.14rem 1.79rem;
+  }
+
+
 }
