@@ -19,6 +19,21 @@ body {
   display: flex;
 }
 
+h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
 /* Button & Links styles */
 
 .button {
@@ -40,6 +55,19 @@ body {
   background-color: white;
   color: #f26226;
   border: 1px solid #f26226;
+}
+
+.link {
+  text-decoration: none;
+  color: #f26226;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+
+.link:hover {
+  text-decoration-line: underline;
+  color: #2e62af;
+
 }
 
 /* Header styles - General & Large screens */
@@ -104,7 +132,6 @@ nav a:hover {
 /* Banner styles */
 
 .banner div {
-  border: 1px solid black;
   margin-top: 4rem;
 }
 
@@ -132,16 +159,83 @@ nav a:hover {
 }
 
 .banner-right h1 {
-  font-size: 2.5rem;
-  font-weight: 900;
   width: 20rem;
 }
 
 .banner-right h3 {
-  font-size: 1.3rem;
-  font-weight: 300;
   width: 20rem;
   margin-top: 2rem;
 }
 
 /* Featured section styles */
+
+/*.featured div {
+  border: 1px solid black;
+}*/
+
+.featured-main {
+  width: 60%;
+  padding: 2rem 0rem 2rem 1.5rem;
+}
+
+.featured-main img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.featured-main p {
+  margin: 1.5rem 0rem;
+  font-style: italic;
+}
+
+.featured-main span {
+  font-size: 0.8rem;
+}
+
+.featured-sub {
+  width: 40%;
+  flex-direction: column;
+  padding: 1rem 0rem 2rem 1.5rem;
+}
+
+.featured-sub .feature {
+  padding: 1rem 0rem 1rem 1rem;
+}
+
+.feature-image {
+  width: 35%;
+  height: auto;
+  margin-right:;
+}
+
+.feature-image img {
+  height: auto;
+  width: 100%;
+}
+
+.feature-content {
+  width: 65%;
+  flex-direction: column;
+  justify-content: center;
+padding: 0rem 1rem;
+}
+
+.feature.row-three {
+  background-color: #d5dfef;
+}
+
+.feature-content .link {
+  margin-top: 1rem;
+}
+
+
+/* Start learning section styles */
+
+.learning {
+  background-color: #eceef2;
+  padding: 2rem 4.5rem;
+}
+
+.learning h2 {
+  margin: 0 auto;
+}
