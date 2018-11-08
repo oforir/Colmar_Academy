@@ -157,8 +157,19 @@ nav a:hover {
 
   .header-mobile {
     display: flex;
-    height: 4.6rem;
+    max-height: 4.6rem;
     justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .header-mobile a {
+    padding: 2.3rem 0;
+    display: flex;
+  }
+
+  .header-mobile a img {
+    align-items: center;
   }
 
 }
@@ -482,8 +493,6 @@ padding: 0rem 1rem;
   #vid-mob {
     padding-bottom: 1.71rem;
   }
-
-
 
 
 }
