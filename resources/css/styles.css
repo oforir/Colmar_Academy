@@ -6,15 +6,41 @@ html {
   font-size: 16px;
 }
 
+body {
+  line-height: 1.4;
+}
+
 .main-container {
   max-width: 1200px;
-  margin: 0 auto;;
+  margin: 0 auto;
 }
 
 .flex {
   display: flex;
 }
 
+/* Button & Links styles */
+
+.button {
+  font-size: 1.1rem;
+  font-weight: 400;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 13rem;
+  padding: 0.75rem;
+  margin-top: 2.5rem;
+  background-color: #f26226;
+  border: 1px solid #f26226;
+  color: white;
+
+}
+
+.button:hover {
+  background-color: white;
+  color: #f26226;
+  border: 1px solid #f26226;
+}
 
 /* Header styles - General & Large screens */
 
@@ -74,3 +100,48 @@ nav a:hover {
 .header-mobile {
   display: none;
 }
+
+/* Banner styles */
+
+.banner div {
+  border: 1px solid black;
+  margin-top: 4rem;
+}
+
+.banner {
+  background-color: #c0cfe7;
+}
+
+
+.banner-left {
+  width: 60%;
+  padding: 2rem 0 2rem 1.5rem;
+
+}
+
+.banner-left img {
+  width: 100%;
+}
+
+.banner-right {
+  flex-direction: column;
+  width: 40%;
+  padding: 2rem 0rem 2rem 1.5rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.banner-right h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  width: 20rem;
+}
+
+.banner-right h3 {
+  font-size: 1.3rem;
+  font-weight: 300;
+  width: 20rem;
+  margin-top: 2rem;
+}
+
+/* Featured section styles */
