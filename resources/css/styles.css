@@ -242,10 +242,6 @@ nav a:hover {
     width: 23rem;
   }
 
-
-
-
-
 }
 
 
@@ -284,6 +280,10 @@ nav a:hover {
   padding: 1rem 0rem 1rem 1rem;
 }
 
+.ftrd-img-mob {
+  display: none;
+}
+
 .feature-image {
   width: 35%;
   margin-right:;
@@ -307,6 +307,49 @@ padding: 0rem 1rem;
 
 .feature-content .link {
   margin-top: 1rem;
+}
+
+@media only screen and (max-width: 480px) {
+
+  .featured-main {
+    display: none;
+  }
+
+  .featured {
+    padding: 0rem;
+  }
+
+  .featured-sub {
+    width: 100%;
+    padding: 1.14rem;
+  }
+
+  .featured-sub .feature {
+    flex-wrap: wrap;
+    padding: 0rem;
+  }
+
+  .feature-image,
+  .feature-content {
+    width: 100%;
+  }
+
+  .ftrd-img-dsk {
+    display: none;
+  }
+
+  .ftrd-img-mob {
+    display: block;
+  }
+
+  .feature-content {
+    padding: 2.29rem 1.14rem;
+  }
+
+  .feature.row-three {
+    background-color: white;
+  }
+
 }
 
 
