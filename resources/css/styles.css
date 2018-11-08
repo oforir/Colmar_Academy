@@ -201,6 +201,53 @@ nav a:hover {
   margin-top: 2rem;
 }
 
+@media only screen and (max-width: 480px) {
+
+  .banner div {
+    margin-top: 0rem;
+  }
+
+  .banner {
+    flex-direction: column;
+
+  }
+
+  .banner-left {
+    width: 100%;
+    padding: 0rem;
+    margin-top: 4.6rem;
+  }
+
+  .banner-left img {
+    margin-top: 4.6rem;
+  }
+
+  .banner-right {
+    width: 90%;
+    padding: 2.3rem 1.15rem;
+    margin-top: 0;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .banner-right .button {
+    margin: auto;
+    margin-top: 1.71rem;
+  }
+
+  .banner-right h1,
+  .banner-right h3 {
+    width: 23rem;
+  }
+
+
+
+
+
+}
+
 
 /* Featured section styles */
 
