@@ -231,11 +231,46 @@ padding: 0rem 1rem;
 
 /* Start learning section styles */
 
+/*.learning div {
+  border: 1px solid black;
+}*/
+
 .learning {
   background-color: #eceef2;
-  padding: 2rem 4.5rem;
+  padding-top: 2rem;
+  flex-direction: column;
 }
 
 .learning h2 {
   margin: 0 auto;
+}
+
+.learning-wrapper {
+  padding: 2rem 3.5rem 0rem 3.5rem;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  height: ;
+}
+
+.course-wrapper {
+  flex-direction: column;
+  width: 30%;
+  margin: 0rem 1rem 2rem 1rem;
+  background-color: white;
+}
+
+.edu-image img {
+  height: auto;
+  max-width: 100%;
+}
+
+.edu-details {
+  padding: 1rem 0.5rem 0.5rem 0.5rem;
+  height: 10rem;
+  line-height: 1.5;
+}
+.edu-details p {
+  margin-top: 0.5rem;
+  font-style: italic;
 }
